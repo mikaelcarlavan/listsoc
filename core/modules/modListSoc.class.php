@@ -96,7 +96,7 @@ class modListSoc extends DolibarrModules
 									'models' => 0,                                   	// Set this to 1 if module has its own models directory (core/modules/xxx)
 									'css' => array(),	// Set this to relative path of css file if module has its own css file
 	 								'js' => array(),          // Set this to relative path of js file if module must load a js on all pages
-									'hooks' => array('customerlist', 'thirdpartylist', 'prospectlist') 	// Set here all hooks context managed by module. You can also set hook context 'all'
+									'hooks' => array('customerlist', 'thirdpartylist', 'prospectlist', 'thirdpartycard') 	// Set here all hooks context managed by module. You can also set hook context 'all'
 		                        );
 
 		// Data directories to create when module is enabled.
